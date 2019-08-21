@@ -1,4 +1,4 @@
-# gatsby-starter-newage
+# msdc-web
 
 Gatsby.js V2 starter template based on New age by startbootstrap
 
@@ -21,7 +21,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-newage
+gatsby new <site-name> https://github.com/mustardseeddesignco/msdc-web
 ```
 
 Then you can run it by:
@@ -38,9 +38,9 @@ Edit `config.js` to put up your details
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Newage', // <title>
+  siteTitle: 'Mustard Seed Design Comapny', // <title>
   ...
-  heading: 'Gatsby Starter New age',
+  heading: 'Mustard Seed Design Co.',
 };
 
 ```

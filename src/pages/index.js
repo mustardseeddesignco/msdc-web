@@ -46,7 +46,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section className="download bg-primary text-center" id="download">
+    <section className="download bg-primary text-center" id="projects">
       <div className="container">
         <div className="row">
           <div className="col-md-8 mx-auto">
@@ -70,7 +70,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="features" id="features">
+    <section className="features" id="workwithmsdc">
       <div className="container">
         <div className="section-heading text-center">
           <h2>Working With MSDC = Unlimited Fun</h2>
