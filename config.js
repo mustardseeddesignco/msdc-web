@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Mustard Seed Design Comapny', // <title>
-  manifestName: 'newage',
+  manifestName: 'msdc-web',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
