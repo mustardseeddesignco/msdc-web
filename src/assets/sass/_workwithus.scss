@@ -11,6 +11,10 @@ section.features {
         margin-bottom: 100px;
         h2 {
             margin-top: 0;
+            background: -webkit-linear-gradient(140deg, rgb(221, 221, 221), #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
         }
         p {
             margin-bottom: 0;
@@ -45,4 +49,11 @@ section.features {
             -webkit-text-fill-color: transparent;
         }
     }
+    .gradient{
+        background: -webkit-linear-gradient(140deg, rgb(221, 221, 221), #fff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
 }
+

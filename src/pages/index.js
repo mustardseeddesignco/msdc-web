@@ -51,17 +51,9 @@ const IndexPage = () => (
               Discover what all the buzz is about!
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              See what we are working on!
             </p>
-            <div className="badges">
-              <a className="badge-link" href="/#">
-                <img src={gplay} alt="" />
-              </a>
-              <a className="badge-link" href="/#">
-                <img src={astore} alt="" />
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -71,7 +63,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="section-heading text-center">
           <h2>Working With MSDC = Unlimited Fun</h2>
-          <p>
+          <p className="gradient">
             When you choose to work with Mustard Seed Design Co. you are choosing to design your brand with talented foreward-thinking logo designers, web designers, and web developers.
           </p>
           <hr />
