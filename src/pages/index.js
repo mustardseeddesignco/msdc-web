@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
-import demo1 from '../assets/images/demo-screen-1.jpg';
+import iphonemock from '../assets/images/iphone-mock-up.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
@@ -19,27 +19,24 @@ const IndexPage = () => (
         <div className="row h-100">
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-              <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+              <h1>
+              Corporate Branding, Logo Design, Graphic Design, and Photography. We cater to many companies big and small creating and designing logo designs and brand identity systems. 
               </h1>
-              <Scroll type="id" element="download">
-                <a href="#download" className="btn btn-outline btn-xl">
-                  Start Now for Free!
+              <br/>
+              <Scroll type="id" element="contact">
+                <a href="#contact" className="btn btn-outline btn-xl">
+                  Let's Talk About Your Project
                 </a>
               </Scroll>
             </div>
           </div>
           <div className="col-lg-5 my-auto">
             <div className="device-container">
-              <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
+                    <img src={iphonemock} className="img-fluid" alt="" />
                   </div>
-                  <div className="button"></div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -74,7 +71,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="section-heading text-center">
           <h2>Working With MSDC = Unlimited Fun</h2>
-          <p className="text-muted">
+          <p>
             When you choose to work with Mustard Seed Design Co. you are choosing to design your brand with talented foreward-thinking logo designers, web designers, and web developers.
           </p>
           <hr />
@@ -82,14 +79,11 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-4 my-auto">
             <div className="device-container">
-              <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
+                    <img src={iphonemock} className="img-fluid" alt="" />
                   </div>
-                  <div className="button"></div>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-lg-8 my-auto">
@@ -99,7 +93,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
                     <h3>Device Mockups</h3>
-                    <p className="text-muted">
+                    <p>
                       Ready to use HTML/CSS device mockups, no Photoshop
                       required!
                     </p>
@@ -109,7 +103,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
                     <h3>Flexible Use</h3>
-                    <p className="text-muted">
+                    <p>
                       Put an image, video, animation, or anything else in the
                       screen!
                     </p>
@@ -121,7 +115,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
                     <h3>Free to Use</h3>
-                    <p className="text-muted">
+                    <p>
                       As always, this theme is free to download and use for any
                       purpose!
                     </p>
@@ -131,7 +125,7 @@ const IndexPage = () => (
                   <div className="feature-item">
                     <i className="icon-lock-open text-primary"></i>
                     <h3>Open Source</h3>
-                    <p className="text-muted">
+                    <p>
                       Since this theme is MIT licensed, you can use it
                       commercially!
                     </p>

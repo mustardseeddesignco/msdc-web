@@ -1,5 +1,12 @@
 // Styling for the features section
 section.features {
+    // background-color: whitesmoke;
+    background: url('../images/bg-pattern.png'), $theme-secondary;
+  background: url('../images/bg-pattern.png'),
+    -webkit-linear-gradient(to left, $theme-primary, $theme-secondary);
+  background: url('../images/bg-pattern.png'), 
+    linear-gradient(to left, $theme-primary, $theme-secondary);
+
     .section-heading {
         margin-bottom: 100px;
         h2 {
@@ -13,6 +20,7 @@ section.features {
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
+        
     }
     .device-container {
         margin-bottom: 100px;

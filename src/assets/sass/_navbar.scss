@@ -9,7 +9,7 @@
         @include heading-font;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: $theme-primary;
         }
     }
     .navbar-toggler {
@@ -20,7 +20,7 @@
     .navbar-nav {
         > li {
             > a {
-                font-size: 11px;
+                font-size: 18px;
                 @include alt-font;
                 &.active {
                     color: $theme-primary !important;
@@ -32,7 +32,7 @@
             }
             > a,
             > a:focus {
-                color: $gray-darker;
+                color: rgb(0, 0, 0);
                 &:hover {
                     color: $theme-primary;
                 }
@@ -53,7 +53,7 @@
         .navbar-nav > li > a:focus {
             color: fade-out(white, .3);
             &:hover {
-                color: white;
+                color: goldenrod;
             }
         }
         &.navbar-shrink {
