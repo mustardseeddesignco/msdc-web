@@ -31,7 +31,7 @@ export default class Header extends Component {
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   }
-
+ 
   render() {
     const { openMenu, visibilityClass } = this.state;
     return (

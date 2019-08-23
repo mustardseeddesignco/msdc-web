@@ -3,19 +3,19 @@ header.masthead {
   position: relative;
 
   width: 100%;
-  padding-top: 150px;
+  padding-top: 550px;
   padding-bottom: 250px;
 
   color: white;
   // opacity: .8;
-  background: url('../images/web-bg3.png'), $theme-secondary;
+  background: url('../images/web-bg3.png'), $theme-tertiary;
   background: url('../images/web-bg3.png'),
-    -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    -webkit-linear-gradient(to left, $theme-tertiary, $brand-twitter);
   background: url('../images/web-bg3.png'), 
-    linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    linear-gradient(to left, $theme-tertiary, $brand-twitter);
   .header-content {
     max-width: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
     text-align: center;
     h1 {

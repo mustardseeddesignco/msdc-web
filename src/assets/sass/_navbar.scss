@@ -5,11 +5,12 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
+        font-size: 30px;
         color: $theme-primary;
         @include heading-font;
         &:hover,
         &:focus {
-            color: $theme-primary;
+            color: aqua;
         }
     }
     .navbar-toggler {
@@ -43,7 +44,7 @@
         border-color: transparent;
         background-color: transparent;
         .navbar-brand {
-            color: fade(white, 70%);
+            color: fade(rgb(70, 70, 70), 70%);
             &:hover,
             &:focus {
                 color: white;
@@ -51,14 +52,14 @@
         }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
-            color: fade-out(white, .3);
+            color: fade-out(white, .1);
             &:hover {
                 color: goldenrod;
             }
         }
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
-            background-color: white;
+            background-color: rgb(110, 110, 110);
             .navbar-brand {
                 color: $gray-darker;
                 &:hover,

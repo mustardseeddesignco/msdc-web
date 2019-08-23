@@ -1,11 +1,11 @@
 // Styling for the features section
 section.features {
     // background-color: whitesmoke;
-    background: url('../images/bg-pattern.png'), $theme-secondary;
-  background: url('../images/bg-pattern.png'),
-    -webkit-linear-gradient(to left, $theme-primary, $theme-secondary);
-  background: url('../images/bg-pattern.png'), 
-    linear-gradient(to left, $theme-primary, $theme-secondary);
+    background: url('../images/web-bg6.png'), $theme-secondary;
+  background: url('../images/web-bg6.png'),
+    -webkit-linear-gradient(to left, $theme-tertiary, $brand-twitter);
+  background: url('../images/web-bg6.png'), 
+    linear-gradient(to left, $theme-tertiary, $brand-twitter);
 
     .section-heading {
         margin-bottom: 100px;
@@ -56,4 +56,6 @@ section.features {
         
     }
 }
-
+    .white-text {
+        color: #fff;
+    }
